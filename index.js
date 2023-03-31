@@ -1,10 +1,16 @@
 // document.getElementById("count").innerText = 5
-// let firstBatch = 5;
-// let secondBatch = 7;
-// let count = firstBatch + secondBatch;
+
+// let count = 5;
+// count = count + 1;
 // console.log(count);
 
-let myAge = 34;
-let humanDogRatio = 7;
-let myDogAge = myAge * humanDogRatio;
-console.log(myDogAge);
+
+
+// initialize the count as 0
+let count = 0;
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked
+function increment() {
+    document.getElementById("count").innerText = count++;
+}
+// change the count-el in index.html
